@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Civil Aviation ✈ Гражданская авиация</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Навигация -->
+  <nav class="navbar">
+    <h1>Civil Aviation ✈</h1>
+    <ul>
+      <li><a href="#home">Главная</a></li>
+      <li><a href="#history">История</a></li>
+      <li><a href="#aircrafts">Самолёты</a></li>
+      <li><a href="#airports">Аэропорты</a></li>
+      <li><a href="#contact">Контакты</a></li>
+    </ul>
+  </nav>
+
+  <!-- Главная -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h2>Мир гражданской авиации</h2>
+      <p>История, современные лайнеры и будущее пассажирских перевозок</p>
+      <a href="#history" class="btn">Узнать больше</a>
+    </div>
+  </section>
+
+  <!-- История -->
+  <section id="history" class="content">
+    <h2>История гражданской авиации</h2>
+    <p>Первые пассажирские перелёты начались в начале XX века. От дирижаблей и
+       поршневых машин человечество перешло к реактивным лайнерам, которые связали города и континенты.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Junkers-f13.jpg" alt="Junkers F13">
+  </section>
+
+  <!-- Самолёты -->
+  <section id="aircrafts" class="content dark">
+    <h2>Современные пассажирские самолёты</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/EGLF_-_Airbus_A350-941_-_F-WZNW.jpg/1200px-EGLF_-_Airbus_A350-941_-_F-WZNW.jpg" alt="Airbus A350">
+        <h3>Airbus A350</h3>
+        <p>Современный дальнемагистральный лайнер с высокой топливной эффективностью.</p>
+      </div>
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Boeing_787_N1015B_ANA_Airlines_%2827611880663%29_%28cropped%29.jpg" alt="Boeing 787 Dreamliner">
+        <h3>Boeing 787 Dreamliner</h3>
+        <p>Лайнер с композитным фюзеляжем и повышенным комфортом для пассажиров.</p>
+      </div>
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/2010-07-08_ERJ190_Cityline_D-AECE_EDDF_01.jpg/1200px-2010-07-08_ERJ190_Cityline_D-AECE_EDDF_01.jpg" alt="Embraer E195">
+        <h3>Embraer E195</h3>
+        <p>Бразильский региональный самолёт, популярный на коротких маршрутах.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Аэропорты -->
+  <section id="airports" class="content">
+    <h2>Крупнейшие аэропорты мира</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://rentradar.ae/wp-content/uploads/2025/04/dubai-international-airport-dxb.jpg">
+        <h3>Dubai International (DXB)</h3>
+        <p>Один из самых загруженных международных аэропортов мира.</p>
+      </div>
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/ATL%281%29_%28cropped%29.jpg" alt="Atlanta Airport">
+        <h3>Atlanta Hartsfield-Jackson (ATL)</h3>
+        <p>Мировой лидер по пассажиропотоку, более 100 млн в год.</p>
+      </div>
+      <div class="card">
+        <img src="https://static.vipgroup.ru/cache/airports/pek/img/pek-1-1920.webp" alt="Beijing Airport">
+        <h3>Beijing Capital (PEK)</h3>
+        <p>Крупнейший хаб Китая и один из крупнейших в мире.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Контакты -->
+  <section id="contact" class="content dark">
+    <h2>Контакты</h2>
+    <p>Есть вопросы или предложения? Напишите нам!</p>
+  <form id="contactForm">
+    <input type="text" placeholder="Ваше имя" required>
+    <input type="email" placeholder="Ваш email" required>
+    <textarea placeholder="Сообщение"></textarea>
+    <button type="submit">Отправить</button>
+  </form>
+    <div id="response"></div>
+  </section>
+
+  <footer>
+    <p>© 2025 Civil Aviation ✈ Все права защищены.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
